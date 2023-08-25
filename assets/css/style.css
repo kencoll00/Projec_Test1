@@ -481,6 +481,8 @@ a {
 
 .testimonial .text {
     width: 36%;
+    margin-top: 37px;
+    margin-bottom: 37px;
 }
 
 .testimonial .icons {
@@ -522,6 +524,7 @@ a {
 .testimonial .image {
     width: 58%;
     margin-left: 72px;
+    position: relative;
 }
 
 .testimonial .image .number {
@@ -531,25 +534,128 @@ a {
     border-radius: 100%;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     object-fit: cover;
-    position: absolute;
 }
 
 .testimonial .image .number.img1 {
     width: 235px;
     height: 235px;
-    position: relative;
+    position: absolute;
+    left: 273px;
+    top: 107px;
 }
 
 .testimonial .image .number.img5 {
     margin-left: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 145px;
 }
 
 .testimonial .image .number.img2 {
     width: 110px;
     height: 110px;
+    position: absolute;
+    right: 0;
+    top: 19px;
 }
 
 .testimonial .image .number.img3 {
     width: 92px;
     height: 92px;
+    position: absolute;
+    top: 0;
+    left: 144px;
+}
+
+.testimonial .image .number.img4 {
+    position: absolute;
+    bottom: 0;
+    left: 212px;
+}
+
+.testimonial .image .number.img6 {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+}
+
+/* CTA Learning */
+.cta-learning {
+    margin-top: 130px;
+    background: #DEF6F5;
+}
+
+.cta-learning .cta {
+    display: flex;
+}
+
+.cta-learning .text {
+    margin-top: 76px;
+    margin-bottom: 88px;
+}
+
+.cta-learning .heading-lv2 {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cta-learning .desc {
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.cta-learning .cta .btn {
+    width: 186px;
+    height: 68px;
+    margin-left: 410px;
+    margin-top: 96px;
+    margin-bottom: 108px;
+    border: none;
+}
+
+/* Footer */
+.footer .contact {
+    margin-top: 131px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer img {
+    margin-top: -200px;
+}
+
+.footer .title {
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+    cursor: default;
+}
+
+.footer .contact li {
+    margin-top: 25px;
+}
+
+.footer .contact .title a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer .social li {
+    margin-top: 18px;
+}
+
+.footer .copyright {
+    color: #B0B5B4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 80px;
 }
